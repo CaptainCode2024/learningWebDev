@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables | Web Dev</title>
+</head>
+<body>
+
+    <!-- example-1 -->
+    <b><p>Table-1</p></b>
+    <table border = "2">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Sex</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>3000</td>
+                <td>K</td>
+                <td>Male</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>3001</td>
+                <td>A</td>
+                <td>Male</td>
+                <td rowspan="3">21</td>
+            </tr>
+            <tr>
+                <td>3002</td>
+                <td>S</td>
+                <td>Female</td>
+            </tr>
+            <tr>
+                <td>3003</td>
+                <td>A</td>
+                <td>Female</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <!-- example-2 -->
+     <b><p>Table-2</p></b>
+    <table border="2">
+        <tr>
+            <td>Column 1</td>
+            <td>Column 2</td>
+            <td>Column 3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2 Cell 2</td>
+            <td>Row 2 Cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row 3 Cell 1</td>
+        </tr>
+    </table>
+
+    <br>
+    <!-- example-3 -->
+     <b><p>Table-3</p></b>
+    <table border="2">
+        <tr>
+            <th>No.</th>
+            <th>Full Name</th>
+            <th>Position</th>
+            <th>Salary</th>
+            <th>Type</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>BilL Gates</td>
+            <td>Founder Microsoft</td>
+            <td>$1000</td>
+            <td rowspan="4">Company Founder</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Steve Jobs</td>
+            <td>Founder Apple</td>
+            <td>$1200</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Larry Page</td>
+            <td>Founder Google</td>
+            <td>$1100</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mark Zuckerberg</td>
+            <td>Founder Facebook</td>
+            <td>$1300</td>
+        </tr>
+        <tr>
+            <td colspan="3">Total Expense:</td>
+            <td>$4600</td>
+        </tr>
+    </table>
+
+    <br>
+    <!-- example-4 -->
+     <b><p>Table-4</p></b>
+
+     <table border="3">
+        <thead>
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+            <tr>
+                <th colspan="2">Schedule</th>
+                <th rowspan="2">Topic</th>
+            </tr>
+            <tr>
+                <th>Begin</th>
+                <th>End</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">08:00</td>
+                <td rowspan="2">17:00</td>
+                <td>Intro to XML</td>
+            </tr>
+            <tr>
+                <td>DTD</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>08:00</td>
+                <td>11:00</td>
+                <td rowspan="3">Xpath<hr>XSL Transformations</td>
+            </tr>
+            <tr>
+                <td>11:00</td>
+                <td>14:00</td>
+            </tr>
+            <tr>
+                <td>14:00</td>
+                <td>17:00</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>08:00</td>
+                <td>12:00</td>
+                <td>XSL Formatting Objects</td>
+            </tr>
+        </tbody>
+     </table>
+
+</body>
+</html>
